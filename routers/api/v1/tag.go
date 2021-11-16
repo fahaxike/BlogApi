@@ -7,9 +7,13 @@
  */
 package v1
 
-import "github.com/gin-gonic/gin"
+import (
+	"fmt"
+	"github.com/gin-gonic/gin"
+)
 
 func GetTags(c *gin.Context) {
+	fmt.Println("你好")
 
 }
 func AddTags(c *gin.Context) {
